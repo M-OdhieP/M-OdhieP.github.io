@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18205455.css",
+    "main.js": "/static/js/main.e566fdc8.js",
+    "static/js/787.c510c48c.chunk.js": "/static/js/787.c510c48c.chunk.js",
+    "static/media/Equinox_Regular.otf": "/static/media/Equinox_Regular.576f7225fd687b875924.otf",
+    "static/media/Equinox_Bold.otf": "/static/media/Equinox_Bold.122e1ab35d5b619bacf7.otf",
+    "index.html": "/index.html",
+    "main.18205455.css.map": "/static/css/main.18205455.css.map",
+    "main.e566fdc8.js.map": "/static/js/main.e566fdc8.js.map",
+    "787.c510c48c.chunk.js.map": "/static/js/787.c510c48c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18205455.css",
+    "static/js/main.e566fdc8.js"
+  ]
+}
