@@ -2,12 +2,10 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 export default function Experience() {
   return (
-    <Container id="experience">
+    <Container id="experience" className="mt-4">
       <Row className="text-light p-0">
-        <Col md={12} className="h2 p-2 equinox-bold ">
-          Experience & Achievement
-        </Col>
-        <Col md={12} className="mb-3">
+        <h1 className="equinox-bold">Experience & Achievement</h1>
+        <Col md={12} className="mb-2">
           <Card>
             <Card.Header>
               <h4 className=" equinox-bold">

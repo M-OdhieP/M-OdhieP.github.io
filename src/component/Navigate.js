@@ -3,7 +3,7 @@ export default function Navigate() {
     <nav className="navbar navbar-expand-lg navbar-dark  ">
       <div className="container">
         <a className="navbar-brand" href="#">
-          {/* <img src="/img/icon.png" className="icon" />  */}
+          <img src="/img/icon.png" className="icon pe-2" />
           m-odhiep.github.io
         </a>
         <button

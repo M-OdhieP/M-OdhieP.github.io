@@ -3,11 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Header() {
   return (
     <Container className="mb-3">
-      <Row className="p-0">
+      <Row className="p-0 ">
         <Col
-          className="section-1 order-2 order-xl-1 m-auto position-relative"
-          xs={8}
           md={5}
+          xs={8}
+          className=" order-2 order-xl-1 mx-auto position-relative mt-2 mb-0 "
+          style={{ maxHeight: "40vh" }}
         >
           <img
             className="centered img-fluid shape-img "
@@ -20,20 +21,26 @@ export default function Header() {
             alt=""
           />
         </Col>
-        <Col className="section-1 order-1 order-xl-2 mb-4" xs={12} md={7}>
-          <h3
-            className="text-light mt-2 mb-0 equinox-bold animate__animated animate__fadeInRightBig"
-            style={{ overflowX: "hidden" }}
-          >
-            Muhamad Odhie Prasetio
-          </h3>
-          <h5
-            className="pb-2 border-bottom text-light equinox-regular animate__animated animate__fadeInRightBig"
-            style={{ overflowX: "hidden" }}
-          >
-            Fullstack Web Developer
-          </h5>
-          <p className="text-light mt-3 animate__fadeIn">
+        <Col
+          md={7}
+          xs={12}
+          className=" order-1 order-xl-2 mb-0  mt-2 text-light"
+        >
+          <div className="name-box">
+            <h3
+              className="mb-0 equinox-bold animate__animated animate__fadeIn"
+              style={{ overflowX: "hidden" }}
+            >
+              Muhamad Odhie Prasetio
+            </h3>
+            <h5
+              className="mb-1 equinox-regular animate__animated animate__fadeIn"
+              style={{ overflowX: "hidden" }}
+            >
+              Fullstack Web Developer
+            </h5>
+          </div>
+          <p className="animate__fadeIn mt-2">
             I am a Fullstack Web Developer graduate with Bachelor's degree in
             Computer Engineering at the Faculty of Engineering and Computer
             Science, Teknokrat University Indonesia. I love to create new things
@@ -43,7 +50,7 @@ export default function Header() {
           <a
             href="/CV_Muhamad Odhie Prasetio.pdf"
             target="_blank"
-            className="btn cv-btn px-4 py-1 "
+            className="btn cv-btn px-4 py-1"
           >
             CV
           </a>
