@@ -21,6 +21,7 @@ function App() {
       <Helmet>
         <title>{TITLE}</title>
       </Helmet>
+
       {/* <img className="matrix" src="/img/component/matrix.gif" alt="" /> */}
       <Navigate />
       <Header />

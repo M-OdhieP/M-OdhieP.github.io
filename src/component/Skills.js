@@ -19,22 +19,24 @@ export default function Skills() {
   return (
     <Container id="skills" className="text-light mt-4 ">
       <h1 className="equinox-bold">Skills & Tools</h1>
-      <Row className="text-center justify-content-center">
+      <Row className="text-center justify-content-center p-0">
         {skills.map((skill) => {
           return (
-            <div className="col-md-4 col-6 p-1" data-aos={"fade-up"}>
+            <Col md={4} xs={6} className="p-1" data-aos={"fade-up"}>
               <div className="card h-100">
                 <div className="card-body skills-container">
                   <img
                     src={"/img/skills/" + skill.img_link}
                     className="img-fluid skills-img"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="skills-text">
                     <h2>{skill.name}</h2>
                   </div>
                 </div>
               </div>
-            </div>
+            </Col>
           );
         })}
       </Row>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 export default function Experience() {
   return (
     <Container id="experience">
-      <Row className="text-light ">
+      <Row className="text-light p-0">
         <Col md={12} className="h2 p-2 equinox-bold ">
           Experience & Achievement
         </Col>
@@ -24,7 +24,7 @@ export default function Experience() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={"fade-right"}>
+        <Col md={6} className="mb-2" data-aos={"fade-in"}>
           <Card>
             <Card.Body>
               <Row>
@@ -32,7 +32,8 @@ export default function Experience() {
                   <img
                     className="img-fluid achievement-img glitch position-relative"
                     src="/img/odhie/t1.png"
-                    alt=""
+                    loading="lazy"
+                    decoding="async"
                   />
                 </Col>
                 <Col md={9} className="align-self-center">
@@ -47,7 +48,7 @@ export default function Experience() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={"fade-left"}>
+        <Col md={6} className="mb-2" data-aos={"fade-in"}>
           <Card>
             <Card.Body>
               <Row>
@@ -55,7 +56,8 @@ export default function Experience() {
                   <img
                     className="img-fluid achievement-img glitch position-relative"
                     src="/img/odhie/t3.png"
-                    alt=""
+                    loading="lazy"
+                    decoding="async"
                   />
                 </Col>
                 <Col md={9} className="align-self-center">

@@ -181,3 +181,6 @@ body {
   height: auto;
   object-fit: scale-down;
 }
+.col {
+  overflow-x: hidden;
+}

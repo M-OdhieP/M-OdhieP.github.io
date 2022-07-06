@@ -88,24 +88,22 @@ export default function Projects() {
       title: "POLDA BENGKULU",
       content:
         " redesign the Bengkulu regional police website according to the desired design and create a content management system for the regional police website content.",
-      animation: "fade-right",
     },
     {
       img_link: "/img/projects/web-dprd-tanggamus.webp",
       title: "DPRD Tanggamus",
       content:
         "adding features to the website of the Tanggamus Regional People's Representative Council in the form of a new appearance or function as well as fixing bugs in the system.",
-      animation: "fade-left",
     },
   ];
 
   return (
     <Container id="projects" className="mt-4 text-light ">
       <h1 className="equinox-bold">Work Projects</h1>
-      <Row>
+      <Row className="p-0">
         {projects.map((project) => {
           return (
-            <Col md={6} className="mb-2" data-aos={project.animation}>
+            <Col md={6} className="mb-2" data-aos={"fade-in"}>
               <Card>
                 <Card.Body>
                   <Row>
@@ -129,7 +127,7 @@ export default function Projects() {
 
       <h1
         className="mt-3 text-center equinox-bold"
-        data-aos={"zoom-in"}
+        data-aos={"fade-in"}
         id="Project"
       >
         Latest Personal Project
