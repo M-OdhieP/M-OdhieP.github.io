@@ -3,16 +3,16 @@ import { Col, Container, Row, Card } from "react-bootstrap";
 export default function Projects() {
   const personal_projects = [
     {
-      title: "CodeIgniter 4 Crud Full Ajax Jquery",
-      link: "https://github.com/M-OdhieP/CodeIgniter-4-Crud-Full-Ajax-Jquery",
-      class: "",
-      target: "_blank",
-    },
-    {
       title: "Latest Personal Project",
       link: "javascript:void(0)",
       class: " bg-dark text-light",
       target: "",
+    },
+    {
+      title: "CodeIgniter 4 Crud Full Ajax Jquery",
+      link: "https://github.com/M-OdhieP/CodeIgniter-4-Crud-Full-Ajax-Jquery",
+      class: "",
+      target: "_blank",
     },
     {
       title: "Istagram UI using reactJS",
@@ -49,6 +49,12 @@ export default function Projects() {
       link: "javascript:void(0)",
       class: " bg-dark text-light",
       target: " ",
+    },
+    {
+      title: "FreeCodeCamp Quote Generator",
+      link: "https://m-odhiep.github.io/Random-Quote_FreeCodeCamp/",
+      class: "",
+      target: "_blank",
     },
     {
       title: "FreeCodeCamp Portofolio Webpage",

@@ -32,12 +32,15 @@ body {
 }
 @keyframes change-color {
   0% {
+    /* filter: hue-rotate(0deg); */
     filter: contrast(100%);
   }
   50% {
+    /* filter: hue-rotate(180deg); */
     filter: contrast(400%);
   }
   100% {
+    /* filter: hue-rotate(360deg); */
     filter: contrast(100%);
   }
 }
@@ -103,6 +106,7 @@ body {
   25% {
     -webkit-filter: hue-rotate(180deg);
     filter: hue-rotate(180deg);
+    filter: blur(3px);
     right: 10px;
   }
   50% {
@@ -122,16 +126,26 @@ body {
   animation-duration: 300ms;
   cursor: pointer;
 }
-/* 
+.matrix-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  mix-blend-mode: screen;
+  filter: hue-rotate(110deg);
+}
+@media only screen and (max-width: 1900px) {
+  .matrix-container {
+    display: none;
+  }
+}
 .matrix {
   object-fit: fill;
   position: absolute;
   right: 0;
-  width: 400px;
+  width: 380px;
   height: 100vh;
   object-fit: cover;
-  mix-blend-mode: screen;
-} */
+}
 
 body {
   background-color: #000000;

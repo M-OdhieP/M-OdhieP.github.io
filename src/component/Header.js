@@ -13,11 +13,13 @@ export default function Header() {
           <img
             className="centered img-fluid shape-img "
             src="/img/odhie/shape.png"
+            decoding="async"
             alt=""
           />
           <img
             className="img-odhie position-relative glitch"
             src="/img/odhie/odhie.png"
+            decoding="async"
             alt=""
           />
         </Col>
