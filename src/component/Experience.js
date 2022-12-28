@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from 'react-bootstrap'
 
 export default function Experience() {
   return (
@@ -14,15 +14,47 @@ export default function Experience() {
               <p className="mb-0">February 2022 - Present</p>
             </Card.Header>
             <Card.Body>
-              <p>
-                Fullstack Web Developer in charge of creating or managing
-                web-based applications, both front-end and back-end according to
-                client needs
+              <p className="intro">
+                Fullstack Web Developer plays a key role in the development and
+                maintenance of web-based applications. They are responsible for
+                designing and building the user interface (front-end) of a
+                website or application, as well as implementing and managing the
+                technical infrastructure (back-end) that supports it including:
               </p>
+              <ul className="experience-list">
+                <li>
+                  Designing and building the front-end of web-based applications
+                  using HTML, CSS, and JavaScript
+                </li>
+                <li>
+                  Implementing and managing the back-end of web-based
+                  applications, including servers, databases, and APIs
+                </li>
+                <li>
+                  Ensuring web-based applications are secure, scalable, and
+                  performant
+                </li>
+                <li>
+                  Collaborating with designers, project managers, and other
+                  stakeholders to understand and implement their vision
+                </li>
+                <li>
+                  Troubleshooting and debugging issues with web-based
+                  applications
+                </li>
+                <li>
+                  Staying up-to-date with the latest web development
+                  technologies and best practices
+                </li>
+                <li>
+                  Continuously improving and evolving web-based applications in
+                  response to changing client needs and technologies
+                </li>
+              </ul>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={"fade-in"}>
+        <Col md={6} className="mb-2" data-aos={'fade-in'}>
           <Card>
             <Card.Body>
               <Row>
@@ -46,7 +78,7 @@ export default function Experience() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={"fade-in"}>
+        <Col md={6} className="mb-2" data-aos={'fade-in'}>
           <Card>
             <Card.Body>
               <Row>
@@ -71,5 +103,5 @@ export default function Experience() {
         </Col>
       </Row>
     </Container>
-  );
+  )
 }

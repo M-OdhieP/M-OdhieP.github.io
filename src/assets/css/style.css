@@ -15,7 +15,7 @@
   height: 100%;
   object-fit: scale-down;
   z-index: 99;
-  transition: transform 0.1s;
+  transition: transform 0.3s;
 }
 
 body {
@@ -210,4 +210,31 @@ body {
 
   border-image-slice: 1;
   width: 100%;
+}
+
+.img-odhie:hover {
+  transform: scale(1.02);
+}
+.cool-text {
+  transition: all 0.3s ease-in-out;
+}
+
+.cool-text:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.intro {
+  text-align: justify;
+  text-indent: 20px;
+}
+.experience-list {
+  text-align: left;
 }

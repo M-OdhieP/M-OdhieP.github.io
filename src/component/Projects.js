@@ -16,6 +16,12 @@ export default function Projects() {
       target: '_blank',
     },
     {
+      title: 'Laravel Simple CRUD',
+      link: 'https://github.com/M-OdhieP/Laravel-Simple-CRUD',
+      class: '',
+      target: '_blank',
+    },
+    {
       title: 'CodeIgniter 4 Crud Full Ajax Jquery',
       link: 'https://github.com/M-OdhieP/CodeIgniter-4-Crud-Full-Ajax-Jquery',
       class: '',
