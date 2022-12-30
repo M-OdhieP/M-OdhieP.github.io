@@ -101,20 +101,20 @@ export default function Projects() {
     },
   ]
 
-  const projects = [
-    {
-      img_link: '/img/projects/polda-bengkulu.webp',
-      title: 'POLDA BENGKULU',
-      content:
-        ' redesign the Bengkulu regional police website according to the desired design and create a content management system for the regional police website content.',
-    },
-    {
-      img_link: '/img/projects/web-dprd-tanggamus.webp',
-      title: 'DPRD Tanggamus',
-      content:
-        "adding features to the website of the Tanggamus Regional People's Representative Council in the form of a new appearance or function as well as fixing bugs in the system.",
-    },
-  ]
+  // const projects = [
+  //   {
+  //     img_link: '/img/projects/polda-bengkulu.webp',
+  //     title: 'POLDA BENGKULU',
+  //     content:
+  //       ' redesign the Bengkulu regional police website according to the desired design and create a content management system for the regional police website content.',
+  //   },
+  //   {
+  //     img_link: '/img/projects/web-dprd-tanggamus.webp',
+  //     title: 'DPRD Tanggamus',
+  //     content:
+  //       "adding features to the website of the Tanggamus Regional People's Representative Council in the form of a new appearance or function as well as fixing bugs in the system.",
+  //   },
+  // ]
 
   return (
     <Container id="projects" className="mt-4 text-light ">
