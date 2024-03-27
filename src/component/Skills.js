@@ -6,6 +6,7 @@ export default function Skills() {
     { img_link: "css.png", name: "CSS" },
     { img_link: "js.png", name: "Javascript" },
     { img_link: "react.png", name: "React JS" },
+    { img_link: "vue.png", name: "Vue JS" },
     { img_link: "php.png", name: "PHP" },
     { img_link: "codeigniter.png", name: "CodeIgniter" },
     { img_link: "laravel.png", name: "Laravel" },
@@ -13,7 +14,9 @@ export default function Skills() {
     { img_link: "tailwindcss.png", name: "Tailwind CSS" },
     { img_link: "phpmyadmin.png", name: "PHPMyAdmin" },
     { img_link: "mysql.png", name: "MySQL" },
+    { img_link: "whmcs.png", name: "WHMCS" },
     { img_link: "restful-api.png", name: "Restful API" },
+    { img_link: "git.png", name: "Git" },
   ];
 
   return (

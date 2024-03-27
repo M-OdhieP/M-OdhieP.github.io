@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 export default function Experience() {
   return (
@@ -54,7 +54,62 @@ export default function Experience() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={'fade-in'}>
+        <Col md={12} className="mb-4">
+          <Card>
+            <Card.Header>
+              <h4 className="equinox-bold">
+                Web Commerce Communications - PHP Developer
+              </h4>
+              <p className="mb-0">March 2023 - Present</p>
+            </Card.Header>
+            <Card.Body>
+              <p className="intro">
+                As a PHP Developer at Web Commerce Communications, I contribute
+                to the development and maintenance of web-based applications. My role
+                involves working with technologies such as WHMCS, Laravel, and Vue.js to
+                ensure seamless integration and functionality.
+              </p>
+              <ul className="experience-list">
+                <li>
+                  Designing and building the front-end of web-based applications using
+                  HTML, CSS, and JavaScript, with a focus on user-friendly interfaces.
+                </li>
+                <li>
+                  Implementing and managing the back-end of web-based applications,
+                  including servers, databases, and APIs, to ensure optimal performance
+                  and functionality.
+                </li>
+                <li>
+                  Collaborating with cross-functional teams, including designers, project
+                  managers, and stakeholders, to understand and implement project
+                  requirements.
+                </li>
+                <li>
+                  Creating custom modules for WHMCS, extending its functionality and
+                  providing tailored solutions to meet specific client needs.
+                </li>
+                <li>
+                  Ensuring the security, scalability, and performance of web-based
+                  applications through rigorous testing and optimization processes.
+                </li>
+                <li>
+                  Troubleshooting and debugging issues with web-based applications,
+                  providing timely solutions to ensure uninterrupted user experience.
+                </li>
+                <li>
+                  Keeping up-to-date with the latest web development technologies and
+                  best practices, incorporating them into the development workflow.
+                </li>
+                <li>
+                  Continuously improving and evolving web-based applications in response
+                  to changing client needs and advancements in web technologies.
+                </li>
+              </ul>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={6} className="mb-2" data-aos={"fade-in"}>
           <Card>
             <Card.Body>
               <Row>
@@ -78,7 +133,7 @@ export default function Experience() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} className="mb-2" data-aos={'fade-in'}>
+        <Col md={6} className="mb-2" data-aos={"fade-in"}>
           <Card>
             <Card.Body>
               <Row>
@@ -103,5 +158,5 @@ export default function Experience() {
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
